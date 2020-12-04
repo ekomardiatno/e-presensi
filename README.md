@@ -4,7 +4,6 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 ```
 ---
 ## **Login Request**
----
 ```javascript
 {
   method: 'POST',
@@ -54,7 +53,6 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 ```
 ---
 ## **Preference Request**
----
 ```javascript
 {
   method: 'GET',
@@ -90,7 +88,6 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 ```
 ---
 ## **Presence Request**
----
 ```javascript
 {
   method: 'POST',
@@ -125,7 +122,6 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 ```
 ---
 ## **Permit Request**
----
 ```javascript
 {
   method: 'POST',
@@ -157,7 +153,6 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 ```
 ---
 ## **Presence/Permit History Request**
----
 ```javascript
 {
   method: 'GET',
@@ -198,7 +193,6 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 ```
 ---
 ## **Collague List Request**
----
 ```javascript
 {
   method: 'POST',
@@ -232,7 +226,6 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 ```
 ---
 ## **Schedule Request**
----
 ```javascript
 {
   method: 'GET',
