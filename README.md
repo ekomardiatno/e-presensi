@@ -195,7 +195,7 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 ## **Collague List Request**
 ```javascript
 {
-  method: 'POST',
+  method: 'GET',
   header: {
     authorization_key: STRING
   },
