@@ -245,9 +245,7 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
       tanggal: DATE,
       jam_masuk: TIME,
       jam_pulang: TIME,
-      radius_toleransi: INTEGER,
-      toleransi_waktu: INTEGER,
-      lokasi_presensi: STRING
+      status: STRING
     }
   ]
 }
