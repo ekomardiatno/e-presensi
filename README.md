@@ -80,10 +80,10 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
           {
             latitude: FLOAT,
             longitude: FLOAT,
+            radius_toleransi: INTEGER,
             inisial_lokasi: STRING
           }
         ],
-        radius_toleransi: INTEGER,
         toleransi_waktu: INTEGER
       }
     }
