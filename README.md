@@ -76,11 +76,15 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
       aturan_presensi: {
         jam_masuk: TIME,
         jam_pulang: TIME,
-        latitude: FLOAT,
-        longitude: FLOAT,
+        lokasi_presensi: [
+          {
+            latitude: FLOAT,
+            longitude: FLOAT,
+            inisial_lokasi: STRING
+          }
+        ],
         radius_toleransi: INTEGER,
-        toleransi_waktu: INTEGER,
-        inisial_lokasi: STRING
+        toleransi_waktu: INTEGER
       }
     }
   }
