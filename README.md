@@ -115,7 +115,8 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
       latitude: FLOAT,
       longitude: FLOAT,
       tipe_presensi: INTEGER,
-      waktu: TIMESTAMP
+      waktu: TIMESTAMP,
+      status_konfirmasi: INTEGER
     }
   }
 }
