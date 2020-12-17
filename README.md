@@ -20,7 +20,7 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
       user: {
         nip_pegawai: STRING,
         nama_pegawai: STRING,
-        foto_pegawai: STRING,
+        foto_pegawai: URL,
         jabatan_pegawai: STRING,
         unit_kerja: STRING,
         golongan_pegawai: STRING
