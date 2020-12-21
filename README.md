@@ -84,7 +84,8 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
             inisial_lokasi: STRING
           }
         ],
-        toleransi_waktu: INTEGER
+        toleransi_waktu: INTEGER,
+        status_presensi: INTEGER
       }
     }
   }
