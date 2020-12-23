@@ -251,7 +251,7 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
         tanggal: DATE,
         jam_masuk: TIME,
         jam_pulang: TIME,
-        status: STRING
+        status: INTEGER
       }
     ]
   }
