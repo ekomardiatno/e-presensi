@@ -209,25 +209,28 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
     nip_pegawai: STRING,
     nama_pegawai: STRING
   },
-  body: [
-    {
-      pegawai: {
-        nip_pegawai: STRING,
-        nama_pegawai: STRING,
-        foto_pegawai: URL
-      },
-      aturan_presensi: {
-        tipe_presensi: INTEGER,
-        jam_masuk: TIME,
-        jam_pulang: TIME,
-        latitude: FLOAT,
-        longitude: FLOAT,
-        radius_toleransi: INTEGER,
-        toleransi_waktu: INTEGER,
-        inisial_lokasi: STRING
+  response: {
+    status: 'OK',
+    data: [
+      {
+        pegawai: {
+          nip_pegawai: STRING,
+          nama_pegawai: STRING,
+          foto_pegawai: URL
+        },
+        aturan_presensi: {
+          tipe_presensi: INTEGER,
+          jam_masuk: TIME,
+          jam_pulang: TIME,
+          latitude: FLOAT,
+          longitude: FLOAT,
+          radius_toleransi: INTEGER,
+          toleransi_waktu: INTEGER,
+          inisial_lokasi: STRING
+        }
       }
-    }
-  ]
+    ]
+  }
 }
 ```
 ---
@@ -241,13 +244,16 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
   params: {
     nip_pegawai: STRING
   },
-  response: [
-    {
-      tanggal: DATE,
-      jam_masuk: TIME,
-      jam_pulang: TIME,
-      status: STRING
-    }
-  ]
+  response: {
+    status: 'OK',
+    data: [
+      {
+        tanggal: DATE,
+        jam_masuk: TIME,
+        jam_pulang: TIME,
+        status: STRING
+      }
+    ]
+  }
 }
 ```
