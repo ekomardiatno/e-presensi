@@ -46,7 +46,7 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
           longitude: FLOAT
         }
       ],
-      authorization_key: STRING
+      token_key: STRING
     }
   }
 }
@@ -57,7 +57,7 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 {
   method: 'GET',
   header: {
-    authorization_key: STRING
+    token_key: STRING
   },
   params: {
     nip_pegawai: STRING
@@ -97,7 +97,7 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 {
   method: 'POST',
   header: {
-    authorization_key: STRING
+    token_key: STRING
   },
   body: {
     nip_pegawai: STRING,
@@ -132,7 +132,7 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 {
   method: 'POST',
   header: {
-    authorization_key: STRING
+    token_key: STRING
   },
   body: {
     nip_pegawai: STRING,
@@ -163,7 +163,7 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 {
   method: 'GET',
   header: {
-    authorization_key: STRING
+    token_key: STRING
   },
   params: {
     nip_pegawai: STRING,
@@ -203,7 +203,7 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 {
   method: 'GET',
   header: {
-    authorization_key: STRING
+    token_key: STRING
   },
   params: {
     nip_pegawai: STRING,
@@ -239,7 +239,7 @@ OK | BAD_REQUEST | EMPTY | UNAUTHORIZED | EXPIRED
 {
   method: 'GET',
   header: {
-    authorization_key: STRING
+    token_key: STRING
   },
   params: {
     nip_pegawai: STRING
